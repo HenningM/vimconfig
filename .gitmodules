@@ -13,6 +13,6 @@
 [submodule "bundle/pep8"]
 	path = bundle/pep8
 	url = https://github.com/vim-scripts/pep8.git
-[submodule "bundle/c.vim"]
-	path = bundle/c.vim
-	url = https://github.com/vim-scripts/c.vim.git
+[submodule "bundle/cvim"]
+	path = bundle/cvim
+	url = https://github.com/HenningM/cvim-pathogen
