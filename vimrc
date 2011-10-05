@@ -14,6 +14,8 @@
     filetype plugin indent on
 
     colorscheme desert256
+
+    let g:pyflakes_use_quickfix=0
 "}
 
 "Key mappings {

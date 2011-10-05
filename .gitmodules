@@ -10,12 +10,12 @@
 [submodule "bundle/pyflakes"]
 	path = bundle/pyflakes
 	url = https://github.com/mitechie/pyflakes-pathogen.git
-[submodule "bundle/pep8"]
-	path = bundle/pep8
-	url = https://github.com/vim-scripts/pep8.git
 [submodule "bundle/cvim"]
 	path = bundle/cvim
 	url = https://github.com/HenningM/cvim-pathogen
 [submodule "bundle/conque"]
 	path = bundle/conque
 	url = https://github.com/lrvick/Conque-Shell.git
+[submodule "bundle/pep8"]
+	path = bundle/pep8
+	url = https://github.com/nvie/vim-pep8.git
