@@ -3,7 +3,14 @@
     set shiftwidth=4
     set tabstop=4
     set smartindent
+
+    set ignorecase
+    set smartcase
     set hlsearch
+    set incsearch
+
+    set wildmode=longest:full
+    set wildmenu
 
     filetype off
     call pathogen#runtime_append_all_bundles()
