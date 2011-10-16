@@ -1,4 +1,4 @@
-"Basic settings {
+"Basic settings {{{
     set expandtab
     set shiftwidth=4
     set tabstop=4
@@ -11,6 +11,8 @@
 
     set wildmode=longest:full
     set wildmenu
+    
+    set foldmethod=marker
 
     filetype off
     call pathogen#runtime_append_all_bundles()
@@ -23,9 +25,25 @@
     colorscheme desert256
 
     let g:pyflakes_use_quickfix=0
-"}
+"}}}
 
-"Key mappings {
+"Key mappings {{{
     nnoremap <C-Right> :tabnext<CR>
     nnoremap <C-Left> :tabprevious<CR>
-"}
+"}}}
+
+"Statusline {{{
+    hi User1 ctermbg=blue   ctermfg=white   guibg=blue  guifg=white
+    hi User2 ctermbg=blue   ctermfg=grey    guibg=blue  guifg=grey
+
+    set laststatus=2
+    set statusline+=%1*
+    set statusline+=%F
+    set statusline+=%2*
+    set statusline+=%m%r\ 
+    set statusline+=%y\ 
+    set statusline+=%{fugitive#statusline()}
+    set statusline+=%=
+    set statusline+=%10((%l,%c)%)\ 
+    set statusline+=%P
+"}}}
