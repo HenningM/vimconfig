@@ -3,6 +3,7 @@
     set shiftwidth=4
     set tabstop=4
     set smartindent
+    set smarttab
 
     set ignorecase
     set smartcase
@@ -33,15 +34,15 @@
 "}}}
 
 "Statusline {{{
-    hi User1 ctermbg=blue   ctermfg=white   guibg=blue  guifg=white
-    hi User2 ctermbg=blue   ctermfg=grey    guibg=blue  guifg=grey
+    hi User1 ctermbg=darkgrey   ctermfg=white   guibg=darkgrey  guifg=white
+    hi User2 ctermbg=darkgrey   ctermfg=grey    guibg=darkgrey  guifg=grey
 
     set laststatus=2
     set statusline+=%1*
-    set statusline+=%F
+    set statusline+=%F\ 
     set statusline+=%2*
-    set statusline+=%m%r\ 
-    set statusline+=%y\ 
+    set statusline+=%m%r
+    set statusline+=%y
     set statusline+=%{fugitive#statusline()}
     set statusline+=%=
     set statusline+=%10((%l,%c)%)\ 
