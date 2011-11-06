@@ -31,6 +31,8 @@
 "Key mappings {{{
     nnoremap <C-Right> :tabnext<CR>
     nnoremap <C-Left> :tabprevious<CR>
+    
+    imap jj <Esc>
 "}}}
 
 "Statusline {{{
