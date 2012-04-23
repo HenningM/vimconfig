@@ -1,7 +1,7 @@
 "Basic settings {{{
     set expandtab
-    set shiftwidth=2
-    set tabstop=2
+    set shiftwidth=4
+    set tabstop=4
     set smartindent
     set smarttab
 
