@@ -36,8 +36,8 @@
 "}}}
 
 "Statusline {{{
-    hi User1 ctermbg=darkgrey   ctermfg=white   guibg=darkgrey  guifg=white
-    hi User2 ctermbg=darkgrey   ctermfg=grey    guibg=darkgrey  guifg=grey
+    hi User1 ctermbg=black   ctermfg=white   guibg=darkgrey  guifg=white
+    hi User2 ctermbg=black   ctermfg=grey    guibg=darkgrey  guifg=grey
 
     set laststatus=2
     set statusline+=%1*
