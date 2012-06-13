@@ -29,8 +29,10 @@
 "}}}
 
 "Key mappings {{{
-    nnoremap <C-Right> :tabnext<CR>
-    nnoremap <C-Left> :tabprevious<CR>
+    nnoremap <Right> :tabnext<CR>
+    nnoremap <Left> :tabprevious<CR>
+    inoremap <Right> <Esc>:tabnext<CR>i
+    inoremap <Left> <Esc>:tabprevious<CR>i
     
     imap jj <Esc>
 "}}}
