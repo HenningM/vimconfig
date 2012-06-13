@@ -52,3 +52,8 @@
     set statusline+=%10((%l,%c)%)\ 
     set statusline+=%P
 "}}}
+
+"Misc {{{
+    set list
+    set listchars=nbsp:…,tab:▸\ ,trail:·
+"}}}
