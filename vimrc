@@ -12,7 +12,7 @@
 
     set wildmode=longest:full
     set wildmenu
-    
+
     set foldmethod=marker
 
     filetype off
@@ -23,7 +23,7 @@
     filetype on
     filetype plugin indent on
 
-    colorscheme desert256
+    colorscheme molokai256
 
     let g:pyflakes_use_quickfix=0
 "}}}
@@ -33,7 +33,7 @@
     nnoremap <Left> :tabprevious<CR>
     inoremap <Right> <Esc>:tabnext<CR>i
     inoremap <Left> <Esc>:tabprevious<CR>i
-    
+
     imap jj <Esc>
 "}}}
 
