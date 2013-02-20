@@ -37,3 +37,9 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/sleuth"]
+	path = bundle/sleuth
+	url = git://github.com/tpope/vim-sleuth.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/tpope/vim-surround.git
