@@ -35,6 +35,11 @@
     inoremap <Left> <Esc>:tabprevious<CR>a
 
     imap jj <Esc>
+
+    let g:ctrlp_prompt_mappings = {
+                \ 'AcceptSelection("e")': [],
+                \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+                \ }
 "}}}
 
 "Statusline {{{
