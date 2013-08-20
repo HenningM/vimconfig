@@ -43,3 +43,6 @@
 [submodule "bundle/actionscript"]
 	path = bundle/actionscript
 	url = https://github.com/jeroenbourgois/vim-actionscript.git
+[submodule "bundle/golang"]
+	path = bundle/golang
+	url = https://github.com/jnwhiteh/vim-golang.git
