@@ -61,4 +61,7 @@
 "Misc {{{
     set list
     set listchars=nbsp:…,tab:▸\ ,trail:·
+
+    "Disable background color erase
+    set t_ut=
 "}}}
