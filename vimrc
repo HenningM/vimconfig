@@ -12,6 +12,7 @@
 
     set wildmode=longest:full
     set wildmenu
+    set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/vendor,*/node_modules
 
     set foldmethod=marker
 
