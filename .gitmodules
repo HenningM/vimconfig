@@ -67,3 +67,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git@github.com:fatih/vim-go.git
+[submodule "bundle/confluencewiki"]
+	path = bundle/confluencewiki
+	url = git@github.com:vim-scripts/confluencewiki.vim.git
