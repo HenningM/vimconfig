@@ -45,7 +45,7 @@
 	url = https://github.com/jeroenbourgois/vim-actionscript.git
 [submodule "bundle/snippets"]
 	path = bundle/snippets
-	url = https://github.com/honza/vim-snippets
+	url = git@github.com:HenningM/vim-snippets.git
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
